@@ -1,0 +1,67 @@
+{
+  "uuid": "25e1f2d6-dbf8-48aa-b15b-3d893242bfbb-tr-0-1002",
+  "historyId": "Book_Swagon.Tests.buyNow",
+  "fullName": "Book_Swagon.Tests.buyNow",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "buyNow"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "buyNow",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/form/div[3]/div[2]/div/div/div[4]/table/tbody/tr/td[3]/input",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at Book_Swagon.DoActions.DoActions.placeorder(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 134\r\n   at Book_Swagon.Tests.buyNow() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 45"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "buyNow",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/form/div[3]/div[2]/div/div/div[4]/table/tbody/tr/td[3]/input",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at Book_Swagon.DoActions.DoActions.placeorder(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 134\r\n   at Book_Swagon.Tests.buyNow() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 45"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1a14b3d137744c5d8885053cdef459a0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633505426666,
+      "stop": 1633505477595
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633505426666,
+  "stop": 1633505477595
+}

@@ -1,0 +1,64 @@
+{
+  "uuid": "9e52dc56-bd5f-43c1-804a-e0a14e3342da-tr-0-1001",
+  "historyId": "Book_Swagon.Tests.ReviewPage",
+  "fullName": "Book_Swagon.Tests.ReviewPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ReviewPage"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "ReviewPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ReviewPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "ReviewPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fc15c5499ef54957845ebe206583f786-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633585449402,
+      "stop": 1633585532378
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633585449401,
+  "stop": 1633585532382
+}

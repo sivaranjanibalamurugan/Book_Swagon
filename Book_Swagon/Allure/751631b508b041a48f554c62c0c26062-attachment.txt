@@ -1,0 +1,8 @@
+2021-10-07 12:51:11,319 DEBUG navigating to url
+2021-10-07 12:51:11,327 INFO Exiting setup
+Login Failes
+searched product displayed
+Meassage:Your order details will be sent to this email address.
+Successful
+Meassage:Checkout Your Cart
+Failes

@@ -1,0 +1,64 @@
+{
+  "uuid": "edae931b-5543-4a5c-80e2-7eedd142292f-tr-0-1001",
+  "historyId": "Book_Swagon.Tests.AssertTitle",
+  "fullName": "Book_Swagon.Tests.AssertTitle",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "AssertTitle"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "AssertTitle",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "AssertTitle"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "AssertTitle",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "be275121463f489d90998010bdb3eae2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633508159704,
+      "stop": 1633508168552
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633508159703,
+  "stop": 1633508168557
+}

@@ -1,0 +1,4 @@
+2021-10-07 12:53:19,467 DEBUG navigating to url
+2021-10-07 12:53:19,468 INFO Exiting setup
+errorMeassage: My Account
+signup Successfully

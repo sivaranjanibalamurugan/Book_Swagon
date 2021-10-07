@@ -1,0 +1,67 @@
+{
+  "uuid": "beed9fa5-7090-4934-84f0-fbcdc825272b-tr-0-1002",
+  "historyId": "Book_Swagon.Tests.createAccount",
+  "fullName": "Book_Swagon.Tests.createAccount",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "createAccount"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "createAccount",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 55 but was 80. Strings differ at index 11.\r\n  Expected: \"Online Bookstore | Buy Books Online | Read Books Online\"\r\n  But was:  \"Online BookStore India, Buy Books Online, Buy Book Online Ind...\"\r\n  ----------------------^\r\n",
+    "trace": "   at Book_Swagon.DoActions.DoActions.Login(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 86\r\n   at Book_Swagon.Tests.createAccount() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 33\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "createAccount",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 55 but was 80. Strings differ at index 11.\r\n  Expected: \"Online Bookstore | Buy Books Online | Read Books Online\"\r\n  But was:  \"Online BookStore India, Buy Books Online, Buy Book Online Ind...\"\r\n  ----------------------^\r\n",
+        "trace": "   at Book_Swagon.DoActions.DoActions.Login(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 86\r\n   at Book_Swagon.Tests.createAccount() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 33\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "54f68d007e1b4de3aaa49c8a06eaa98c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633451385068,
+      "stop": 1633451430956
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633451385068,
+  "stop": 1633451430956
+}

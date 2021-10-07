@@ -1,0 +1,96 @@
+{
+  "uuid": "9528932d-bf7d-4b19-ad36-2584374ed772-tr-0-1002",
+  "historyId": "Book_Swagon.Tests.createAccount",
+  "fullName": "Book_Swagon.Tests.createAccount",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "createAccount"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "User"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "createAccount",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "createAccount"
+  },
+  "stage": "finished",
+  "description": "signup\n",
+  "steps": [
+    {
+      "name": "createAccount",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "38e4a29932b34110b291c7866a7b0d60-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633506003623,
+      "stop": 1633506030852
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633506003623,
+  "stop": 1633506030855
+}

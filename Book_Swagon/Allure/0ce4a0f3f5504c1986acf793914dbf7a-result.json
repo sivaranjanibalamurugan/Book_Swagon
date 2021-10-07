@@ -1,0 +1,64 @@
+{
+  "uuid": "88684a8d-3a8e-408c-9748-4529e23a4c83-tr-0-1006",
+  "historyId": "Book_Swagon.Tests.shipping",
+  "fullName": "Book_Swagon.Tests.shipping",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "shipping"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "shipping",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "shipping"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "shipping",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "78f25c2221754a1a9c569df444a31032-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633590785289,
+      "stop": 1633590867546
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633590785289,
+  "stop": 1633590867546
+}

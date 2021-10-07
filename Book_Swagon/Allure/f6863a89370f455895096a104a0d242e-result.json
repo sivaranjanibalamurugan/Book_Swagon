@@ -1,0 +1,67 @@
+{
+  "uuid": "0db22b11-d59f-4422-afc7-5a495ac41227-tr-0-1001",
+  "historyId": "Book_Swagon.Tests.buyNow",
+  "fullName": "Book_Swagon.Tests.buyNow",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "buyNow"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "buyNow",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 53 but was 54. Strings differ at index 53.\r\n  Expected: \"Your order details will be sent to this email address\"\r\n  But was:  \"Your order details will be sent to this email address.\"\r\n  ----------------------------------------------------------------^\r\n",
+    "trace": "   at Book_Swagon.DoActions.DoActions.placeorder(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 144\r\n   at Book_Swagon.Tests.buyNow() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 51\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "buyNow",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 53 but was 54. Strings differ at index 53.\r\n  Expected: \"Your order details will be sent to this email address\"\r\n  But was:  \"Your order details will be sent to this email address.\"\r\n  ----------------------------------------------------------------^\r\n",
+        "trace": "   at Book_Swagon.DoActions.DoActions.placeorder(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 144\r\n   at Book_Swagon.Tests.buyNow() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 51\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c470f92647d34d28b59d42ee0870d618-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633532530072,
+      "stop": 1633532584383
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633532530069,
+  "stop": 1633532584387
+}

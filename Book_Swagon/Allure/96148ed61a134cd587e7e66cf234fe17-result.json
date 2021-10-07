@@ -1,0 +1,67 @@
+{
+  "uuid": "639c7182-e502-4f5d-9d4d-5b37da8302ca-tr-0-1008",
+  "historyId": "Book_Swagon.Tests.payment",
+  "fullName": "Book_Swagon.Tests.payment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "payment"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "payment",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.LinkText: Gift Certificate ",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at Book_Swagon.DoActions.DoActions.payment(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 236\r\n   at Book_Swagon.Tests.payment() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 68"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "payment",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.LinkText: Gift Certificate ",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at Book_Swagon.DoActions.DoActions.payment(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 236\r\n   at Book_Swagon.Tests.payment() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 68"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "751631b508b041a48f554c62c0c26062-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633591262458,
+      "stop": 1633591347528
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633591262457,
+  "stop": 1633591347532
+}

@@ -1,0 +1,64 @@
+{
+  "uuid": "c9f9444d-d038-43ee-8bc7-c92ae8f4edd1-tr-0-1002",
+  "historyId": "Book_Swagon.Tests.Sendingmail",
+  "fullName": "Book_Swagon.Tests.Sendingmail",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Sendingmail"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "Sendingmail",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Sendingmail"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Sendingmail",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "894ee73aa125410984a777a9678873f6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633513744906,
+      "stop": 1633513752579
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633513744906,
+  "stop": 1633513752579
+}

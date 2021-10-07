@@ -1,0 +1,67 @@
+{
+  "uuid": "ff7df8da-79a2-42d0-b211-a76436ceacf1-tr-0-1002",
+  "historyId": "Book_Swagon.Tests.buyNow",
+  "fullName": "Book_Swagon.Tests.buyNow",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "buyNow"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "buyNow",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.InvalidElementStateException : invalid element state\n  (Session info: chrome=94.0.4606.71)",
+    "trace": "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Clear()\r\n   at Book_Swagon.DoActions.DoActions.placeorder(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 131\r\n   at Book_Swagon.Tests.buyNow() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 45\r\n--InvalidElementStateException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Clear()"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "buyNow",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.InvalidElementStateException : invalid element state\n  (Session info: chrome=94.0.4606.71)",
+        "trace": "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)\r\n   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Clear()\r\n   at Book_Swagon.DoActions.DoActions.placeorder(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 131\r\n   at Book_Swagon.Tests.buyNow() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 45\r\n--InvalidElementStateException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Clear()"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "33754ddd714d400a951d15e86669c27f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633501703048,
+      "stop": 1633501750517
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633501703048,
+  "stop": 1633501750517
+}

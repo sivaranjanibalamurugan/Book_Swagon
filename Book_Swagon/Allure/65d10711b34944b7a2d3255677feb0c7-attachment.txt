@@ -1,0 +1,5 @@
+2021-10-06 22:17:48,779 DEBUG navigating to url
+2021-10-06 22:17:48,779 INFO Exiting setup
+Login Failes
+searching Failed
+Failed

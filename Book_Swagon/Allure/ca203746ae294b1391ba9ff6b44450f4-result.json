@@ -1,0 +1,67 @@
+{
+  "uuid": "15b90f87-991c-4b7e-948d-40669926c605-tr-0-1003",
+  "historyId": "Book_Swagon.Tests.searchBook",
+  "fullName": "Book_Swagon.Tests.searchBook",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "searchBook"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "searchBook",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 55 but was 80. Strings differ at index 11.\r\n  Expected: \"Online Bookstore | Buy Books Online | Read Books Online\"\r\n  But was:  \"Online BookStore India, Buy Books Online, Buy Book Online Ind...\"\r\n  ----------------------^\r\n",
+    "trace": "   at Book_Swagon.DoActions.DoActions.Login(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 86\r\n   at Book_Swagon.DoActions.DoActions.search(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 99\r\n   at Book_Swagon.Tests.searchBook() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 39\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "searchBook",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 55 but was 80. Strings differ at index 11.\r\n  Expected: \"Online Bookstore | Buy Books Online | Read Books Online\"\r\n  But was:  \"Online BookStore India, Buy Books Online, Buy Book Online Ind...\"\r\n  ----------------------^\r\n",
+        "trace": "   at Book_Swagon.DoActions.DoActions.Login(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 86\r\n   at Book_Swagon.DoActions.DoActions.search(IWebDriver driver) in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\DoActions\\DoActions.cs:line 99\r\n   at Book_Swagon.Tests.searchBook() in C:\\Users\\sivaranjani.b\\source\\repos\\Book_Swagon\\Book_Swagon\\TestCases.cs:line 39\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "56ad31e23d5b4fdd98dab83ea57e53f3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633451430962,
+      "stop": 1633451467000
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633451430962,
+  "stop": 1633451467001
+}

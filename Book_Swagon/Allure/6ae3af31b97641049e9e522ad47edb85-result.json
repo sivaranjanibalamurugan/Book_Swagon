@@ -1,0 +1,64 @@
+{
+  "uuid": "f82b5102-d06b-402c-9376-3212c3249270-tr-0-1008",
+  "historyId": "Book_Swagon.Tests.NegativeTestcase",
+  "fullName": "Book_Swagon.Tests.NegativeTestcase",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "NegativeTestcase"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "NegativeTestcase",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "NegativeTestcase"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "NegativeTestcase",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3212cc4b970b427c9f40824e13f88a86-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633539907082,
+      "stop": 1633539933798
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633539907082,
+  "stop": 1633539933798
+}

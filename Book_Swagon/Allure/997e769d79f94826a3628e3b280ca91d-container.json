@@ -1,0 +1,44 @@
+{
+  "uuid": "450a8726-bf17-402c-8d3f-ecf00b95f6cb-tc-0-1000",
+  "name": "Book_Swagon.Tests.searchBook",
+  "children": [
+    "348d4df9-6a24-47c7-aca8-a726cf054a39-tr-0-1004"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633539765318,
+      "stop": 1633539765318
+    }
+  ],
+  "afters": [
+    {
+      "name": "teardown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633539765318,
+      "stop": 1633539765318
+    }
+  ],
+  "links": [],
+  "start": 1633539724860,
+  "stop": 1633539765323
+}

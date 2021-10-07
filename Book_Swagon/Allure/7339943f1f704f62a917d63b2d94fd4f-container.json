@@ -1,0 +1,44 @@
+{
+  "uuid": "15b59b48-0eea-4df0-9520-3fbe6869bb63-tc-0-1000",
+  "name": "Book_Swagon.Tests.AssertTitle",
+  "children": [
+    "ba4f3f5e-da83-4b31-b392-1f45b1221dcf-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633451850246,
+      "stop": 1633451850246
+    }
+  ],
+  "afters": [
+    {
+      "name": "teardown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1633451850246,
+      "stop": 1633451850246
+    }
+  ],
+  "links": [],
+  "start": 1633451841827,
+  "stop": 1633451850287
+}

@@ -1,0 +1,6 @@
+2021-10-06 21:18:38,811 DEBUG navigating to url
+2021-10-06 21:18:38,811 INFO Exiting setup
+Login Failes
+searched product displayed
+Error Meassage:Your order details will be sent to this email address.
+Successful

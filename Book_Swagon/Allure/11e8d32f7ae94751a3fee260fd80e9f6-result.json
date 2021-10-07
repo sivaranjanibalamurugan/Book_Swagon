@@ -1,0 +1,64 @@
+{
+  "uuid": "e2beca9c-c143-4d1c-b55d-1e4d151c942a-tr-0-1002",
+  "historyId": "Book_Swagon.Tests.signin",
+  "fullName": "Book_Swagon.Tests.signin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NXT-LT082"
+    },
+    {
+      "name": "testClass",
+      "value": "Book_Swagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "signin"
+    },
+    {
+      "name": "package",
+      "value": "Book_Swagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "signin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "signin"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "signin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "81e4ebae031e44268f8789d5460db044-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633539694029,
+      "stop": 1633539724853
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633539694029,
+  "stop": 1633539724853
+}

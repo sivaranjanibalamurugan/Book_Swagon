@@ -1,0 +1,4 @@
+2021-10-06 13:40:28,920 DEBUG navigating to url
+2021-10-06 13:40:28,921 INFO Exiting setup
+Successful
+Successful
